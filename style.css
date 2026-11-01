@@ -1,0 +1,68 @@
+body {
+  background: #1a1a1a;
+  color: #eee;
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  gap: 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.intro {
+  flex: 1;
+  max-width: 620px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 0.5rem;
+  line-height: 1.1;
+}
+
+.role {
+  color: #aaa;
+  font-size: 1.2rem;
+  margin: 0 0 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 3rem 0 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #aaa;
+  text-decoration-color: #666;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  color: #fff;
+}
+img {
+  width: 340px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 12px;
+  align-self: flex-start;
+}
+.status {
+  color: #888;
+  font-size: 0.95rem;
+  margin-left: 0.4rem;
+}
